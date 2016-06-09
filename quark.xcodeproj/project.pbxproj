@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CAAEE41D00903D00726077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CAAEE31D00903D00726077 /* main.m */; };
+		28CAAEEB1D00907C00726077 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CAAEEA1D00907C00726077 /* CoreBluetooth.framework */; };
+		28CAAEF01D00925600726077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CAAEEF1D00925600726077 /* Foundation.framework */; };
+		28CAAEFF1D00BA2A00726077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CAAEFE1D00BA2A00726077 /* AppDelegate.m */; };
+		28CAAF021D00BA2A00726077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CAAF011D00BA2A00726077 /* main.m */; };
+		28CAAF041D00BA2A00726077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CAAF031D00BA2A00726077 /* Assets.xcassets */; };
+		28CAAF071D00BA2A00726077 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CAAF051D00BA2A00726077 /* MainMenu.xib */; };
+		28CAAF121D00BA2B00726077 /* QuarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CAAF111D00BA2B00726077 /* QuarkUITests.m */; };
+		28CAAF1D1D00BB1800726077 /* QRKCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CAAF1B1D00BB1800726077 /* QRKCoordinator.m */; };
+		28CAAF1E1D00BBA800726077 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CAAEEA1D00907C00726077 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CAAF0E1D00BA2B00726077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CAAED81D00903D00726077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CAAEFA1D00BA2A00726077;
+			remoteInfo = Quark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28CAAEDE1D00903D00726077 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28CAAEE01D00903D00726077 /* quark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = quark; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CAAEE31D00903D00726077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28CAAEEA1D00907C00726077 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		28CAAEEF1D00925600726077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28CAAEFB1D00BA2A00726077 /* Quark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CAAEFD1D00BA2A00726077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28CAAEFE1D00BA2A00726077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28CAAF011D00BA2A00726077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28CAAF031D00BA2A00726077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28CAAF061D00BA2A00726077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28CAAF081D00BA2A00726077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CAAF0D1D00BA2B00726077 /* QuarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CAAF111D00BA2B00726077 /* QuarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuarkUITests.m; sourceTree = "<group>"; };
+		28CAAF131D00BA2B00726077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CAAF1B1D00BB1800726077 /* QRKCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRKCoordinator.m; sourceTree = "<group>"; };
+		28CAAF1C1D00BB1800726077 /* QRKCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRKCoordinator.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CAAEDD1D00903D00726077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CAAEF01D00925600726077 /* Foundation.framework in Frameworks */,
+				28CAAEEB1D00907C00726077 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CAAEF81D00BA2A00726077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CAAF1E1D00BBA800726077 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CAAF0A1D00BA2B00726077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CAAED71D00903D00726077 = {
+			isa = PBXGroup;
+			children = (
+				28CAAEEF1D00925600726077 /* Foundation.framework */,
+				28CAAEEA1D00907C00726077 /* CoreBluetooth.framework */,
+				28CAAEE21D00903D00726077 /* quark */,
+				28CAAEFC1D00BA2A00726077 /* Quark */,
+				28CAAF101D00BA2B00726077 /* QuarkUITests */,
+				28CAAEE11D00903D00726077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CAAEE11D00903D00726077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CAAEE01D00903D00726077 /* quark */,
+				28CAAEFB1D00BA2A00726077 /* Quark.app */,
+				28CAAF0D1D00BA2B00726077 /* QuarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CAAEE21D00903D00726077 /* quark */ = {
+			isa = PBXGroup;
+			children = (
+				28CAAEE31D00903D00726077 /* main.m */,
+			);
+			path = quark;
+			sourceTree = "<group>";
+		};
+		28CAAEFC1D00BA2A00726077 /* Quark */ = {
+			isa = PBXGroup;
+			children = (
+				28CAAF1B1D00BB1800726077 /* QRKCoordinator.m */,
+				28CAAF1C1D00BB1800726077 /* QRKCoordinator.h */,
+				28CAAEFD1D00BA2A00726077 /* AppDelegate.h */,
+				28CAAEFE1D00BA2A00726077 /* AppDelegate.m */,
+				28CAAF031D00BA2A00726077 /* Assets.xcassets */,
+				28CAAF051D00BA2A00726077 /* MainMenu.xib */,
+				28CAAF081D00BA2A00726077 /* Info.plist */,
+				28CAAF001D00BA2A00726077 /* Supporting Files */,
+			);
+			path = Quark;
+			sourceTree = "<group>";
+		};
+		28CAAF001D00BA2A00726077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28CAAF011D00BA2A00726077 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28CAAF101D00BA2B00726077 /* QuarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28CAAF111D00BA2B00726077 /* QuarkUITests.m */,
+				28CAAF131D00BA2B00726077 /* Info.plist */,
+			);
+			path = QuarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CAAEDF1D00903D00726077 /* quark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CAAEE71D00903D00726077 /* Build configuration list for PBXNativeTarget "quark" */;
+			buildPhases = (
+				28CAAEDC1D00903D00726077 /* Sources */,
+				28CAAEDD1D00903D00726077 /* Frameworks */,
+				28CAAEDE1D00903D00726077 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quark;
+			productName = quark;
+			productReference = 28CAAEE01D00903D00726077 /* quark */;
+			productType = "com.apple.product-type.tool";
+		};
+		28CAAEFA1D00BA2A00726077 /* Quark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CAAF141D00BA2B00726077 /* Build configuration list for PBXNativeTarget "Quark" */;
+			buildPhases = (
+				28CAAEF71D00BA2A00726077 /* Sources */,
+				28CAAEF81D00BA2A00726077 /* Frameworks */,
+				28CAAEF91D00BA2A00726077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quark;
+			productName = Quark;
+			productReference = 28CAAEFB1D00BA2A00726077 /* Quark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CAAF0C1D00BA2B00726077 /* QuarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CAAF171D00BA2B00726077 /* Build configuration list for PBXNativeTarget "QuarkUITests" */;
+			buildPhases = (
+				28CAAF091D00BA2B00726077 /* Sources */,
+				28CAAF0A1D00BA2B00726077 /* Frameworks */,
+				28CAAF0B1D00BA2B00726077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CAAF0F1D00BA2B00726077 /* PBXTargetDependency */,
+			);
+			name = QuarkUITests;
+			productName = QuarkUITests;
+			productReference = 28CAAF0D1D00BA2B00726077 /* QuarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CAAED81D00903D00726077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zetetic;
+				TargetAttributes = {
+					28CAAEDF1D00903D00726077 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					28CAAEFA1D00BA2A00726077 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					28CAAF0C1D00BA2B00726077 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 28CAAEFA1D00BA2A00726077;
+					};
+				};
+			};
+			buildConfigurationList = 28CAAEDB1D00903D00726077 /* Build configuration list for PBXProject "quark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28CAAED71D00903D00726077;
+			productRefGroup = 28CAAEE11D00903D00726077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CAAEDF1D00903D00726077 /* quark */,
+				28CAAEFA1D00BA2A00726077 /* Quark */,
+				28CAAF0C1D00BA2B00726077 /* QuarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CAAEF91D00BA2A00726077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CAAF041D00BA2A00726077 /* Assets.xcassets in Resources */,
+				28CAAF071D00BA2A00726077 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CAAF0B1D00BA2B00726077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CAAEDC1D00903D00726077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CAAEE41D00903D00726077 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CAAEF71D00BA2A00726077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CAAF1D1D00BB1800726077 /* QRKCoordinator.m in Sources */,
+				28CAAF021D00BA2A00726077 /* main.m in Sources */,
+				28CAAEFF1D00BA2A00726077 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CAAF091D00BA2B00726077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CAAF121D00BA2B00726077 /* QuarkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CAAF0F1D00BA2B00726077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CAAEFA1D00BA2A00726077 /* Quark */;
+			targetProxy = 28CAAF0E1D00BA2B00726077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28CAAF051D00BA2A00726077 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CAAF061D00BA2A00726077 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CAAEE51D00903D00726077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28CAAEE61D00903D00726077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28CAAEE81D00903D00726077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28CAAEE91D00903D00726077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28CAAF151D00BA2B00726077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Quark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zetetic.Quark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28CAAF161D00BA2B00726077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Quark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zetetic.Quark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28CAAF181D00BA2B00726077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zetetic.QuarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quark;
+			};
+			name = Debug;
+		};
+		28CAAF191D00BA2B00726077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zetetic.QuarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CAAEDB1D00903D00726077 /* Build configuration list for PBXProject "quark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CAAEE51D00903D00726077 /* Debug */,
+				28CAAEE61D00903D00726077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CAAEE71D00903D00726077 /* Build configuration list for PBXNativeTarget "quark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CAAEE81D00903D00726077 /* Debug */,
+				28CAAEE91D00903D00726077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28CAAF141D00BA2B00726077 /* Build configuration list for PBXNativeTarget "Quark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CAAF151D00BA2B00726077 /* Debug */,
+				28CAAF161D00BA2B00726077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28CAAF171D00BA2B00726077 /* Build configuration list for PBXNativeTarget "QuarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CAAF181D00BA2B00726077 /* Debug */,
+				28CAAF191D00BA2B00726077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CAAED81D00903D00726077 /* Project object */;
+}

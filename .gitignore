@@ -1,0 +1,15 @@
+.DS_Store
+./build/*
+build/
+*.mode1v3
+*.pbxuser
+dsa_priv.pem
+xcuserdata
+xcuserdata/*
+test.db
+options-test.db
+Tests/datamodel.db
+./keys/*
+keys/
+*.xccheckout
+.ruby-version
